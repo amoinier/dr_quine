@@ -34,6 +34,8 @@ sully:
 	gcc $(FLAG) ./Sully/Sully.c -o ./Sully/Sully
 
 clean:
+	rm -f ./Grace/Grace_kid.c
+	rm -f ./Sully/Sully_5 ./Sully/Sully_4 ./Sully/Sully_3 ./Sully/Sully_2 ./Sully/Sully_1 ./Sully/Sully_5.c ./Sully/Sully_4.c ./Sully/Sully_3.c ./Sully/Sully_2.c ./Sully/Sully_1.c
 	rm -f ./Colleen/Colleen ./Grace/Grace ./Sully/Sully
 
 fclean: clean
